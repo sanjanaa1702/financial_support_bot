@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> VUI Interface </title>
+    <link rel="stylesheet" href="./css/chatbot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="title">MDX Financial Support</a>
+        <a class="home-button" href="./index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+    </div>
+    <div class="faq-box">
+        <h2>Frequently Asked Questions</h2>
+        <br>
+        <div class="faq1">
+            <br>
+            <a>How much does my course costs?</a>
+        </div>
+        <br>
+        <div class="faq2">
+            <br>
+            <a>Do I have any payment due?</a>
+        </div>
+        <br>
+        <div class="faq3">
+            <br>
+            <a>How to clear my dues?</a>
+        </div>
+        <br>
+        <div class="faq4">
+            <br>
+            <a>How to apply for a student loan?</a>
+        </div>
+        <div class="faq4">
+            <br>
+            <a>Am I eligible for a scholarship?</a>
+        </div>
+    </div>
+
+    <div class="chatbot-div">
+        <div class="chatarea-main">
+            <div class="chatarea-outer">
+
+            </div>
+        </div>
+        <button id="myBtn" class="info-button"><i class="fa">&#xf05a;</i> </button>
+        <input type="text" id="userinput" class="inputfield" name="fname" onfocus="this.value=''"
+            onkeydown="if(event.keyCode == 13){usermsg()}">
+        <button class="mic" id="mic"><i class="flaticon-microphone"></i></button>
+        
+    </div>
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>MDX Financial Support</h2>
+                <ul>
+                    <li><i style="font-size:24px" class="fa">&#xf130;</i> - Click to capture your voice.</li>
+                    <li>The FAQ section gives you an idea of what you can ask the system.</li>
+                    <li>You can even type in your question in the text box and press enter</li>
+                    <li>The system response is played aloud automatically.</li>
+                </ul>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+
+
+
+
+</html>

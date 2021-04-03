@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:url(../campus.jpg);
+    background-size:cover;
+
+  }
+  
+  *{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color:black;
+    text-align: left;
+    padding:10px
+  }
+  
+  .navbar a {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .title{
+    float:left;
+}
+  
+.navigation{
+    position: absolute;
+    top: 250px;
+    right:404px;
+    font-size: larger;
+    height:6cm;
+    width:15cm;
+    background-color:white;
+    font-family:'Rockwell';
+    opacity: 87%;
+}
+.navigation h2{
+    text-align: center;
+}
+
+  .button5 {border-radius: 50%;}
+  .button {
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 225px;
+    top: 250px;
+    right:450px;
+    cursor: pointer;
+    font-weight: bold;
+ 
+  }
+ 
